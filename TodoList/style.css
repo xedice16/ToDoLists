@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .container {
+        width: 335px;
+        border: 1px solid #C4C4C4;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-image: linear-gradient(to bottom, #FFDC40 27px, rgba(255, 255, 255, 0) 27px);
+        margin: 100px auto;
+    }
+
+.toDo{
+    margin: 44px 21px 18px 27px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.buttons{
+    position: relative;
+    margin: 10px 70px;
+}
+.plus-button{
+     position:absolute; 
+    z-index: 1;
+}
+.enter-button{
+    padding: 10px;
+    text-align: center;
+    background-color: #833AE0;
+    border: none;
+    border-radius: 99px;
+    width: 150px;
+    color:#FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.plus-button{
+   padding: 10px;
+    border: none;
+    background-color: #9953F1;
+    border-radius:50%;
+    width: 40px;
+    color:#FFFFFF;
+    font-weight: 400;
+}
+.plus-button:hover{
+    background-color: #b38be5;
+}
+.enter-button:hover{
+    background-color: #7e61a4;
+} 
+h1{
+   padding-top: 10px;
+   font-family:  "Roboto", sans-serif;
+   font-weight: 900;
+   font-size: 26px;
+   text-align: center;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+.icon {
+    margin-left: 245px;
+    border: none;
+}
+
+.filter-icon {
+    cursor: pointer;
+    outline: none;
+    
+}
+.filter-icon:hover{
+    background-image: url(filter3.png);
+}
+.text{
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    border: 1px solid  #C4C4C4;
+}
+.input-boxes{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+.clear-button{
+    cursor: pointer;
+    margin-right: 10px;
+}
+ .clear-button:hover{
+   background-image: url(clear2.png);
+} 
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 8px 4px 8px  10px ; 
+    user-select: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+} 
